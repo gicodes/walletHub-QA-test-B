@@ -18,7 +18,7 @@ describe('accountDiversityGrade C', () => {
     }
 
     else {
-      throw new Error('Failed to load loanTypeCount')
+      throw new Error('Failed to load accountDiversityGrade')
     }
 
     // Assert that the result is correct
