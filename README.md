@@ -6,7 +6,7 @@ written by Gideon Iduma.
 
 ### Testing the Account Diversity Grade of a User
 
-#### Task: 
+#### Task:
 
 Below you will find the requirements to identify the Account Diversity Grade of a user. Read the requirements carefully and identify what test users you need to setup in order to completely test and make sure all the below requirements are covered.
 
@@ -61,7 +61,7 @@ Now you are ready to use JEST to run the test scripts.
 
 ## Test for User A
 
-In this test case, we used a testing library (Jest) to create a test case that covers all the possible factors for `'accountDiversityGrade A'` 
+In this test case, we used a testing library (Jest) to create a test case that covers all the possible factors for `'accountDiversityGrade A'`
 
 i.e. *User A* matches the `totalAccounts` and `loanTypeCount` parameter.
 
@@ -70,6 +70,15 @@ The `accountDiversityGrade` function takes in a `loanTypeCount` parameter, check
 The account diversity grade is determined as follows:
 
 * If the `loanTypeCount` is 4 and `totalAccounts` > 20, the account diversity grade is "A".
+
+### Test Code
+
+<script>
+
+// To see the source code for Test (User A), See userA.test.js
+
+</script>
+
 
 ## Test for User B
 
@@ -83,6 +92,16 @@ The account diversity grade is determined as follows:
 
 * If the `loanTypeCount` is 3 and `totalAccounts` > 10, the account diversity grade is "B".
 
+
+### Test Code
+
+<script>
+
+// To see the source code for Test (User B), See userB.test.js
+
+</script>
+
+
 ## Test for User C
 
 In this test case, we used a testing library (Jest) to create a test case that covers all the possible factors for `'accountDiversityGrade C'`
@@ -94,6 +113,15 @@ The `accountDiversityGrade` function takes in a `loanTypeCount` parameter, check
 The account diversity grade is determined as follows:
 
 * If the `loanTypeCount` is 2 and `totalAccounts` >= 5, the account diversity grade is "C".
+
+
+### Test Code
+
+<script>
+// To see the source code for Test (User C), See userC.test.js
+
+</script>
+
 
 ## Test for User D
 
@@ -107,6 +135,16 @@ The account diversity grade is determined as follows:
 
 * If the `loanTypeCount` is 1 and `totalAccounts` > 0, the account diversity grade is "D".
 
+
+### Test Code
+
+<script>
+
+// To see the source code for Test (User D), See userD.test.js
+
+</script>
+
+
 ## Test for User null
 
 In this test case, we used a testing library (Jest) to create a test case that covers all the possible factors for `'accountDiversityGrade NULL'`
@@ -118,6 +156,16 @@ The `accountDiversityGrade` function takes in a `loanTypeCount` parameter, check
 The account diversity grade is determined as follows:
 
 * If the `loanTypeCount` is 0 and `totalAccounts` is 0, the account diversity grade is "null".
+
+
+### Test Code
+
+<script>
+
+// To see the source code for Test (User Null), See userNULL.test.js
+
+</script>
+
 
 ## Conclusion
 
