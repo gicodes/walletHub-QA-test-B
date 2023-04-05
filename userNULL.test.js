@@ -6,14 +6,14 @@ const { accountDiversityGrade } = require('./path/to/file/');
 
 // Define the user test
 describe('accountDiversityGrade NULL', () => {
-  it('should return null when loanTypeCount is 0', () => {
+  it('should return null when loanTypeCount is null', () => {
     // Define the loanTypeCount and initialize totalAccounts
     const loanTypeCount = null;
     let totalAccounts;
     let result;
 
     // Check that totalAccounts matches the loanTypeCount
-    if (totalAccounts === 0) {
+    if (totalAccounts === null || totalAccounts === 0) {
       result = accountDiversityGrade(loanTypeCount);
     }
 
